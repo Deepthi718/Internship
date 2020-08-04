@@ -1,0 +1,83 @@
+body{
+	margin: 0.6%;
+}
+
+#cover {
+    background: #222 url('https://images.squarespace-cdn.com/content/v1/5c4c9e983c3a5399055da8f0/1548529408461-PFFT72H9Z78BI8M6UL9V/ke17ZwdGBToddI8pDm48kCNuFgHZpNbB9Od0nOc9CQ57gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Ufk7xsn95e0PmxrU573ZgCqNR1szC4S7L6sQEZZcqJ76h4wEndT9yoXeK5CPlsnUNQ/wp2732954.jpg?format=2500w')center center no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+#cover-caption {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+#header-nav{
+	/*background-color: #f6b319;*/
+	border-radius: 0;
+	border:0;
+	text-align: center;
+
+}
+.navbar-brand h1{
+	font-family: 'Lora', serif;
+	color:#0F049E;
+	font-size: 1.8em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+	
+}
+.main-container{
+	/*box-shadow: 0 0 50px #3F0C1F;
+	border:2px solid #3F0C1F;*/
+	width: 50%;
+	padding: 15px ;
+	margin: 15% 35%;
+	
+}
+.main-container h3{
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: white;
+}
+.main-container p{
+	font-weight: bold;
+}
+.button{
+	display: block;
+	margin: 0px 120px;
+
+}
+ .main-form h1{
+ 	text-align: center;
+ 	color: blue;
+    text-shadow: 1px 1px 1px #222;
+ }
+ .main-form label{
+ 	display: inline-block;
+ 	width: 200px;
+}
+
+ form:before {
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    z-index: -1;
+    border-radius: 10px;
+        }
