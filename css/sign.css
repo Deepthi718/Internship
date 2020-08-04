@@ -25,6 +25,7 @@ body{
 	border:0;
 	text-align: center;
 
+
 }
 .navbar-brand h1{
 	font-family: 'Lora', serif;
@@ -100,9 +101,8 @@ body{
 #sign-up{
 	background-image: url(https://undsgn.com/wp-content/uploads/2018/04/ltotbngnzzu.jpg) ;
 }
-.form-group{
+#su1{
 	width: 25%;
 	display: inline-block;
-	
 	margin:0 500px; 
 }
