@@ -62,15 +62,31 @@ body{
 }
  .main-form h1{
  	text-align: center;
- 	color: blue;
-    text-shadow: 1px 1px 1px #222;
+ 	color: #F7CDF7;
+    text-shadow: 1px 3px 4px #222;
  }
  .main-form label{
  	display: inline-block;
- 	width: 200px;
+ 	width: 500px;
+ 	margin: 0 auto;
+ 	text-align: right;
+ 	color: #DE7CDE;
+}
+.container {
+  height: 200px;
+  position: relative;
+ /* border: 3px solid green;*/
 }
 
- form:before {
+.vertical-center {
+  margin: 0 4%;
+  position: absolute;
+  top: 10%;
+  /*-ms-transform: translateY(-50%);*/
+  /*transform: translateY(-50%);*/
+}
+
+ #form1:before {
     content: '';
     height: 100%;
     left: 0;
@@ -81,3 +97,12 @@ body{
     z-index: -1;
     border-radius: 10px;
         }
+#sign-up{
+	background-image: url(https://undsgn.com/wp-content/uploads/2018/04/ltotbngnzzu.jpg) ;
+}
+.form-group{
+	width: 25%;
+	display: inline-block;
+	
+	margin:0 500px; 
+}
